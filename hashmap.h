@@ -72,7 +72,8 @@ void map_put(hashmap map, char *key, float value) {
  * Prints the map in the specified format of
  * {key : value, key : value}
  * Notice there is not a comma after the last
- * value. Refer to lab if needed. 
+ * value. Refer to lab if needed. It should
+ * only produce strings of .2f (two decimals). 
 */
 void map_print(hashmap map) {
    
